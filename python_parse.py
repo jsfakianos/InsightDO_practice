@@ -2,7 +2,7 @@ import os
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
-path_to_ini_file = '/'.join([os.getcwd(), '..', 'data/inifile.ini'])
+path_to_ini_file = '/'.join([os.getcwd(), 'data/inifile.ini'])
 
 
 def ADD_DoD(path_to_ini):
